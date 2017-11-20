@@ -55,7 +55,7 @@ public extension StarWarsAPI { // API Calls
 
     // MARK: - API Methods
     /** This call maps to the StarWarsAPI Films REST call documented
-    [here](https://swapi.co/documentation#films) at the StarWarsAPI.co web site
+    [here](https://swapi.co/documentation#films) at the swapi.co web site
     */
     public func films(completion: @escaping (_ films: [Film]?,
                                              _ error: StarWarsError?) -> Void) {
@@ -65,7 +65,7 @@ public extension StarWarsAPI { // API Calls
     }
 
     /** This call maps to the StarWarsAPI People REST call documented
-     [here](https://swapi.co/documentation#people) at the StarWarsAPI.co web site
+     [here](https://swapi.co/documentation#people) at the swapi.co web site
      */
     public func people(completion: @escaping (_ people: [People]?, _ error: StarWarsError?) -> Void) {
 
@@ -75,7 +75,7 @@ public extension StarWarsAPI { // API Calls
     }
 
     /** This call maps to the StarWarsAPI Species REST call documented
-     [here](https://swapi.co/documentation#species) at the StarWarsAPI.co web site
+     [here](https://swapi.co/documentation#species) at the swapi.co web site
      */
     public func species(completion: @escaping (_ species: [Species]?, _ error: StarWarsError?) -> Void) {
 
@@ -85,7 +85,7 @@ public extension StarWarsAPI { // API Calls
     }
 
     /** This call maps to the StarWarsAPI Planets REST call documented
-     [here](https://swapi.co/documentation#planets) at the StarWarsAPI.co web site
+     [here](https://swapi.co/documentation#planets) at the swapi.co web site
      */
     public func planets(completion: @escaping (_ planets: [Planet]?, _ error: StarWarsError?) -> Void) {
 
@@ -95,7 +95,7 @@ public extension StarWarsAPI { // API Calls
     }
 
     /** This call maps to the StarWarsAPI Vehicles REST call documented
-     [here](https://swapi.co/documentation#vehicles) at the StarWarsAPI.co web site
+     [here](https://swapi.co/documentation#vehicles) at the swapi.co web site
      */
     public func vehicles(completion: @escaping (_ vehicles: [Vehicle]?, _ error: StarWarsError?) -> Void) {
 
@@ -105,7 +105,7 @@ public extension StarWarsAPI { // API Calls
     }
 
     /** This call maps to the StarWarsAPI Films REST call documented
-     [here](https://swapi.co/documentation#starships) at the StarWarsAPI.co web site
+     [here](https://swapi.co/documentation#starships) at the swapi.co web site
      */
     public func starships(completion: @escaping (_ starshpips: [Starship]?, _ error: StarWarsError?) -> Void) {
 
